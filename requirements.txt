@@ -7,4 +7,5 @@ matplotlib
 scikit-learn
 dill
 gunicorn
+flask
 # -e .
