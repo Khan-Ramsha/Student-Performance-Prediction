@@ -6,4 +6,5 @@ xgboost
 matplotlib
 scikit-learn
 dill
+gunicorn
 # -e .
