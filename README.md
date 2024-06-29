@@ -18,13 +18,17 @@ It integrates data handling, model training, and deployment processes, designed 
 
 ## Getting Started
 ## Clone the repository:
+
 ```git clone https://github.com/Khan-Ramsha/Student-Performance-Prediction.git```
 
 ```cd Student-Performance-Prediction```
+
 ## Install dependencies:
+
 ```pip install -r requirements.txt```
 
 ## Run the Flask application:
+
 ```python app.py```
 
 The application will be accessible at http://localhost:5000. 🌐
