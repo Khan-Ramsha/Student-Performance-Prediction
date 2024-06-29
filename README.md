@@ -12,7 +12,7 @@ It integrates data handling, model training, and deployment processes, designed 
 
 #### Web Application: Flask-based interface allowing users to input data, predict scores, and visualize results dynamically.
 
-#### Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git commit and push. 🐳🚀
+#### Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git push. 🐳🚀
 
 #### Logging & Exception Handling: Transparent logging and robust exception handling ensure reliability throughout the application. 📝🛠️
 
