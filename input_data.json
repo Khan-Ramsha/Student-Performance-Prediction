@@ -1,9 +1,9 @@
 {
-    "gender": "female",
-    "lunch": "standard",
-    "parental_level_of_education": "bachelor's degree",
-    "race_ethnicity": "group C",
-    "reading_score": "88",
-    "test_preparation_course": "none",
-    "writing_score": "88"
+    "gender": "male",
+    "lunch": "free/reduced",
+    "parental_level_of_education": "associate's degree",
+    "race_ethnicity": "group A",
+    "reading_score": "67",
+    "test_preparation_course": "completed",
+    "writing_score": "68"
 }

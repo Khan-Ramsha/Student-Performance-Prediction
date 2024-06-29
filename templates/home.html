@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device=device-width, initial-scale=1.0">
     <title>Student Exam Performance Indicator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f0f2f5;
             margin: 0;
             padding: 0;
         }
@@ -16,28 +16,39 @@
             margin: 50px auto;
             padding: 20px;
             background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
             border-radius: 10px;
         }
         .login h1 {
             text-align: center;
-            color: #333;
+            color: #343a40;
+            margin-bottom: 20px;
         }
-        form h1 legend {
-            font-size: 1.2em;
-            color: #555;
+        form h3 {
+            text-align: center;
+            color: #495057;
+            margin-bottom: 20px;
         }
         .form-label {
             display: block;
             margin-bottom: 5px;
-            color: #555;
+            color: #495057;
         }
         .form-control {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid #ced4da;
             border-radius: 5px;
+            font-size: 1em;
+            background-color: #f8f9fa;
+            transition: background-color 0.3s ease;
+        }
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+            background-color: #ffffff;
         }
         .btn {
             display: block;
@@ -47,7 +58,9 @@
             color: #fff;
             border: none;
             border-radius: 5px;
+            font-size: 1em;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         .btn:hover {
             background-color: #0056b3;
@@ -56,22 +69,23 @@
             text-align: center;
             margin-top: 20px;
             font-size: 1.2em;
-            color: #333;
+            color: #343a40;
+        }
+        .mb-3 {
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="login">
-            <h1>Student Exam Performance Indicator</h1>
+            <h1>Student Score Prediction</h1>
             <form action="{{ url_for('predict_data')}}" method="post">
-                <h1>
-                    <legend>Student Exam Performance Prediction</legend>
-                </h1>
+                <h3>Enter details to predict math score</h3>
                 <div class="mb-3">
                     <label class="form-label">Gender</label>
                     <select class="form-control" name="gender" required>
-                        <option class="placeholder" selected disabled value="">Select your Gender</option>
+                        <option class="placeholder" selected disabled value="">Select Gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                     </select>
@@ -117,14 +131,14 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Writing Score out of 100</label>
-                    <input class="form-control" type="number" name="writing_score" placeholder="Enter your Writing score" min="0" max="100" required>
+                    <input class="form-control" type="number" name="writing_score" placeholder="Enter Writing score" min="0" max="100" required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Reading Score out of 100</label>
-                    <input class="form-control" type="number" name="reading_score" placeholder="Enter your Reading score" min="0" max="100" required>
+                    <input class="form-control" type="number" name="reading_score" placeholder="Enter  Reading score" min="0" max="100" required>
                 </div>
                 <div class="mb-3">
-                    <input class="btn" type="submit" value="Predict your Maths Score">
+                    <input class="btn" type="submit" value="Predict Maths Score">
                 </div>
             </form>
             <div class="prediction">
