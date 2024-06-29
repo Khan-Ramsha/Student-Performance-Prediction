@@ -1,23 +1,23 @@
-## Student's score Prediction 🎓📊
+# Student's score Prediction 🎓📊
 
 Welcome to the Student's score Prediction project repository! 
 This project implements a Flask-based web application for predicting student scores based on various metrics using machine learning models. 
 It integrates data handling, model training, and deployment processes, designed to be efficient, scalable, and user-friendly.
 
-# Features
+## Features
 
-## Data Handling: Efficient ingestion, transformation, and preprocessing of student performance data.
+### Data Handling: Efficient ingestion, transformation, and preprocessing of student performance data.
 
-## Machine Learning: Utilizes multiple regression models (Random Forest, XGBRegressor) with hyperparameter tuning for accurate predictions.
+### Machine Learning: Utilizes multiple regression models (Random Forest, XGBRegressor) with hyperparameter tuning for accurate predictions.
 
-## Web Application: Flask-based interface allowing users to input data, predict scores, and visualize results dynamically.
+### Web Application: Flask-based interface allowing users to input data, predict scores, and visualize results dynamically.
 
-## Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git commit and push. 🐳🚀
+### Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git commit and push. 🐳🚀
 
-## Logging & Exception Handling: Transparent logging and robust exception handling ensure reliability throughout the application. 📝🛠️
+### Logging & Exception Handling: Transparent logging and robust exception handling ensure reliability throughout the application. 📝🛠️
 
 ## Getting Started
-# Clone the repository:
+## Clone the repository:
 git clone https://github.com/Khan-Ramsha/Student-Performance-Prediction.git
 cd Student-Performance-Prediction
 # Install dependencies:
