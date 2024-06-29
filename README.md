@@ -21,9 +21,6 @@ It integrates data handling, model training, and deployment processes, designed 
 
 ```
 git clone https://github.com/Khan-Ramsha/Student-Performance-Prediction.git
-```
-
-```
 cd Student-Performance-Prediction
 ```
 
