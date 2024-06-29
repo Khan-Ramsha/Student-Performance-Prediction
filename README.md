@@ -19,7 +19,7 @@ It integrates data handling, model training, and deployment processes, designed 
 ## Getting Started
 ## Clone the repository:
 
-```git clone https://github.com/Khan-Ramsha/Student-Performance-Prediction.git```
+``git clone https://github.com/Khan-Ramsha/Student-Performance-Prediction.git``
 
 ```cd Student-Performance-Prediction```
 
