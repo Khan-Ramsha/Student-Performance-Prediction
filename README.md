@@ -6,15 +6,15 @@ It integrates data handling, model training, and deployment processes, designed 
 
 # Features
 
- Data Handling: Efficient ingestion, transformation, and preprocessing of student performance data.
+#### Data Handling: Efficient ingestion, transformation, and preprocessing of student performance data.
 
- Machine Learning: Utilizes multiple regression models with hyperparameter tuning for accurate predictions.
+#### Machine Learning: Utilizes multiple regression models with hyperparameter tuning for accurate predictions.
 
- Web Application: Flask-based interface allowing users to input data, predict scores, and visualize results dynamically.
+#### Web Application: Flask-based interface allowing users to input data, predict scores, and visualize results dynamically.
 
- Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git commit and push. 🐳🚀
+#### Automated CI/CD: GitHub Actions automate Docker image creation, pushing to Docker Hub, and deployment on Render with every git commit and push. 🐳🚀
 
- Logging & Exception Handling: Transparent logging and robust exception handling ensure reliability throughout the application. 📝🛠️
+#### Logging & Exception Handling: Transparent logging and robust exception handling ensure reliability throughout the application. 📝🛠️
 
 ## Getting Started
 ## Clone the repository:
